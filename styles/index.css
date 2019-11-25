@@ -1,0 +1,217 @@
+*{
+    font-family: 'Poppins', sans-serif;
+  }
+  body {
+      background-color: rgb(0, 0, 0);
+  }
+  
+  
+  .scroll_button{
+      position: fixed;
+      padding: 5px;
+      color:#fff;
+      bottom: 0;
+      right:0;
+      margin-bottom: 20px;
+      margin-right: 20px;
+      border-radius: 50%;
+      border: 3px solid orange;
+  
+  }
+  .scroll_button:hover{
+      cursor: pointer;
+      background-color: #fff;
+      color:#000;
+  }
+  
+    
+    a {
+      color: rgb(255, 255, 255);
+      text-decoration: underline;
+      text-transform: uppercase;
+      /* letter-spacing: -7px; */
+    }
+    p{
+      color: #fff;
+      line-height: 1;
+      direction: rtf;
+      word-spacing: 30px;
+      letter-spacing: 30px;
+      display: none;
+    }
+    h1{
+      /* background-color: peru; */
+      /* border: 2px groove   white;
+       */
+       /* border-style: dotted;
+       border-color: #fff;
+       border-width: 2px;
+       border-left-style: solid;
+       border-right-style: ridge;
+       border-radius: 20px; 
+       text-align: left;
+       color:#fff;
+       font-style: italic;
+       font-weight:thin; */
+    
+       /* text-shadow: 5px 10px red; */
+       /* margin: auto; */
+       /* width: 400px;
+       height: 90px; */
+       /* padding: 30px;
+       padding-bottom: 70px; */
+    }
+    
+    i {
+      color: #fff;
+    }
+    a{
+      text-decoration: none;
+    }
+    .link:hover {
+      border-bottom:2px solid gold;
+      /* font-size: 100px; */
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      background-color: #f44336;
+      color: white;
+      padding: 14px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+    ul{
+      /* list-style-type: lower-alpha; */
+      list-style-type: none;
+      /* display: inline-block; */
+      /* text-align: right; */
+      display: inline;
+      /* list-style-image: url('../Jellyfish.jpg'); */
+    }
+    
+    div.container{
+      display: inline;
+      clear: both;
+    }
+    ul{
+      display: inline;
+      float: right!important;
+    }
+    div.btn-container{
+      width: 100%;
+    }  
+    span.name{
+      float: left;
+      padding: 20px;
+      color: #fff;
+      padding-top: 15px;
+      font-size: 20px;
+      font-weight: bolder;
+      padding-left: 40px;
+    }
+    li{
+      display: inline-block;
+      text-align: right;
+    }
+  div.navigation{
+    opacity: 1;
+  }
+   
+    ul.nav-list{
+      margin-right: 120px;
+    }
+    ul li {
+      font-weight: lighter;
+      /* margin-left:10px; */
+      font-size: 15px;
+      text-align: center;
+      color:#fff;
+      margin-left: 20px;
+      padding-bottom: 10px;
+    }
+   ul li.active{
+      border-bottom:2px solid #ffbd39;
+      
+    }
+   div.slide-content h3.slide-content-hello{
+     color:#ffbd39;
+     font-weight: thinner;
+     letter-spacing: 7px;
+     text-transform: uppercase;
+     font-size: 14px;
+     
+   }
+   div.slide-content{
+    position: absolute;
+    top:240px;
+    left: 50px;
+    line-height: 50px;
+    max-width:100px;
+   }
+  
+   button.btn-hire-me{
+     background-color: #ffbd39;
+     color:#fff;
+     padding: 10px;
+     border-radius: 20px;
+     border:0;
+     padding-left: auto;
+     padding-right: auto;
+     padding-top:10px;
+     padding-bottom:10px;
+      display: inline;
+    text-transform: uppercase;
+      font-size: 10px; 
+      outline: hidden;
+         
+   }
+   
+   button.btn-my-works{
+    outline: hidden;   
+     
+    font-size: 10px;    
+    background-color: #ffbd39;
+    color:#fff;
+    padding: 10px;
+    border-radius: 20px;
+    border:0;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top:10px;
+    padding-bottom:10px;
+    display: inline;
+    background: transparent;
+    border:2px solid grey;
+    text-transform: uppercase;
+    
+  }
+   h1.slide-content-about{
+     color:#ffbd39;
+     font-weight: bolder;
+   }
+   .text-white{
+     color: #fff;
+     padding-right: 10px;
+   }
+   h1{
+     font-size: 50px;
+     margin: 0;
+     padding: 0;
+   }
+    img.slide1{
+      z-index: -1;
+      position: absolute;
+      right: 150px;
+    }
+    div.slider{
+      z-index: -3;
+      position: relative;
+      top:-70px;
+    }
+    ul li:hover{
+      border-bottom:2px solid #ffbd39;
+      cursor: pointer;
+    }
+    
+    
+    
+    
